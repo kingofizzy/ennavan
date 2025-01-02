@@ -121,8 +121,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/avalum_naanum"),           
         ],
         [
-        InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
-        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" close "),
+            InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" close "),
         ]
     ]
     return buttons
@@ -142,8 +142,8 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/avalum_naanum"),           
         ],
         [
-        InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
-        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" close "),
+            InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" close "),
         ]
     ]
     return buttons
