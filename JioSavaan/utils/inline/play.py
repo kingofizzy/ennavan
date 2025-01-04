@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 10 < anon < 20:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 20 <= anon < 30:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 30 <= anon < 40:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 40 <= anon < 50:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 50 <= anon < 60:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 60 <= anon < 70:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 70 <= anon < 80:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     elif 80 <= anon < 95:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
     else:
-        ba = "Mᴏᴏɴ Vɪʙᴇ 🌛"
+        ba = "𝞒𝞲𝙜𝙝𝞽፝֟𝞮𝙧𝙨 𝞛𝞾𝙨𝞲֟፝𝙘𝙯𝀸ᬃ͢𖽹"
 
 ##bar of wynk---------------------------------------
     
@@ -117,8 +117,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/solo_girl14"),
-            InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/avalum_naanum"),           
+            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/ownerofTheDenki"),
+            InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/denkimusic"),           
         ],
         [
             InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
@@ -137,9 +137,9 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-         [
-            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/solo_girl14"),
-            InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/avalum_naanum"),           
+          [
+            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/ownerofTheDenki"),
+            InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/denkimusic"),           
         ],
         [
             InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
