@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "20611365"))
-API_HASH = getenv("API_HASH", "424e183d2cf8a7f2c8bafeeaab1b5c8c")
+API_ID = int(getenv("API_ID", "25762898"))
+API_HASH = getenv("API_HASH", "c4a5cb2db3f3d4a52de7689c4d9f2812")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7962364610:AAHtqijeIJ9YFq27vuN4YeDKrVBD_LfTpiA")
+BOT_TOKEN = getenv("BOT_TOKEN", "7788838360:AAFmOjFvgo9Cu7TEdZ2-FRu8JQr09K8F42E")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://architect04:architect04@cluster0.fylqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002443248366"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002329626146"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6891833889"))
+OWNER_ID = int(getenv("OWNER_ID", "7941950690"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/beast_fox_network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/avalum_naanum")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/denkimusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGl67kAPuTVdw7Abc-Mk3hEMVEd_1shnxoW4B2mRdRCG5N62gkBIwfaJZnOb13FbSdyk5Xwvhzunh_oRGbDTlujwB9NblASl2XwfoLklaWMfV2RU5laazctUGNnbjH1Ruti519FlUKTvwcfRjBLrsC3lyJT3cVxnEjw5Btu58MsDg9MJ8Yx51FjGV-zu7CHYOzCkcLEsjf-auzYFMeEpX_H-r2UOfUzPwZtAnxWHoY_mkG-5hkWuuQeAQp_8J-j1__EXA5kwvMEVo5Qjcso-P6gd_3sqUHTpcp5eZOvkQwzQJ5wNU_lewU1LErYlLqRUJNhcr9ublh9IK9Z0ukh6IcWGzKkDQAAAAGGotzQAA")
+STRING1 = getenv("STRING_SESSION", "BQGJHFIAUCzOCpvYE4f3nncGp7AgqvZ-xSVl2sRn1Cz9SSUTatBuZaCYStQZdlUumZkgvLvrShsuInAlI3gA_KdHX6tUW_bPjk-WxO_yHT5-Q0JbWiAlV1Ae1ax3gkR37CujsE0opqlmEhxrTh7Y1WPLO2DyeIrcGnXq8-1fmOtn6xCzv2OWD-DS57lKFf17HdiHEWmdMoZih988TEhJKDBgkNUw5n1byUE5YBqLBeNY9LH82aV6TcLxTiWK3j2QZ6U7A21YssRJnmNozk6uVT-7jPWpAgbZG1BpJqfzoNwKwM-WiIVZ9XpNKJcZHvC9n10TjtSoktEXm0KcP3NB9upfByxNwgAAAAGpEg3QAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
