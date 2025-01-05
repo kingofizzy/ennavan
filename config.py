@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "25762898"))
-API_HASH = getenv("API_HASH", "c4a5cb2db3f3d4a52de7689c4d9f2812")
+API_ID = int(getenv("API_ID", "24497530"))
+API_HASH = getenv("API_HASH", "5862dc39b02037a1adb78fdf17c837b5")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7788838360:AAFmOjFvgo9Cu7TEdZ2-FRu8JQr09K8F42E")
+BOT_TOKEN = getenv("BOT_TOKEN", "7341357899:AAEtwjb-YTqm-0LSSpzkdAqQIuTd_xEo_rs")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://architect04:architect04@cluster0.fylqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://architect04:architect04@clu
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002329626146"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002415603391"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7941950690"))
+OWNER_ID = int(getenv("OWNER_ID", "7736844532"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/beast_fox_network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/denkimusic")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Team_Hypers_Networks")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGJHFIAUCzOCpvYE4f3nncGp7AgqvZ-xSVl2sRn1Cz9SSUTatBuZaCYStQZdlUumZkgvLvrShsuInAlI3gA_KdHX6tUW_bPjk-WxO_yHT5-Q0JbWiAlV1Ae1ax3gkR37CujsE0opqlmEhxrTh7Y1WPLO2DyeIrcGnXq8-1fmOtn6xCzv2OWD-DS57lKFf17HdiHEWmdMoZih988TEhJKDBgkNUw5n1byUE5YBqLBeNY9LH82aV6TcLxTiWK3j2QZ6U7A21YssRJnmNozk6uVT-7jPWpAgbZG1BpJqfzoNwKwM-WiIVZ9XpNKJcZHvC9n10TjtSoktEXm0KcP3NB9upfByxNwgAAAAGpEg3QAA")
+STRING1 = getenv("STRING_SESSION", "BQF1zXoAeEpK93P4EaboMdSx0mhSgqZ7oIYZhRv-kcwHgzHnxi8gwTPefnXdh4RWn_4sEao-lAb13YIHFbyxxGnpO_AxC4kB0YuwIHmVQu--tBco_k0LnouZmmASTMKzBjfyJzEuYZCFxP6Na2U6GQJB7PIX6_ddCxRy328Ljjgll5FqWlAXlq7dZJ9v1cCG0kiWQ-0aslQXy7YS-fa8lt0yq7Q7TBggXQze8a4sTeNpFPH32rezFf5hZ_71I5JaMg1YU9oavG1QlSOsIWgef-eiXXalSTyxeZ466nbOkvsDvDmxM-Idr6d04M5qFOjb4J_67Pr0Sapyg97K2aTlBfXcjFVGQQAAAAHcXWYyAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/rSy.jpg"
+    "START_IMG_URL", "https://envs.sh/sE4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/rSy.jpg"
+    "PING_IMG_URL", "https://envs.sh/sE4.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/rSy.jpg"
-STATS_IMG_URL = "https://envs.sh/rSy.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/rSy.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/rSy.jpg"
-STREAM_IMG_URL = "https://envs.sh/rSy.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/rSy.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/rSy.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/rSy.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/rSy.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/rSy.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/sE4.jpg"
+STATS_IMG_URL = "https://envs.sh/sE4.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/sE4.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/sE4.jpg"
+STREAM_IMG_URL = "https://envs.sh/sE4.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/sE4.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/sE4.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/sE4.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/sE4.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/sE4.jpg"
 
 
 def time_to_seconds(time):
