@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 10 < anon < 20:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 20 <= anon < 30:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 30 <= anon < 40:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 40 <= anon < 50:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 50 <= anon < 60:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 60 <= anon < 70:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 70 <= anon < 80:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     elif 80 <= anon < 95:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
     else:
-        ba = "˹ Sᴏʟᴏ ✘ Mᴜsɪᴄ ˼"
+        ba = "˹ 𑂢ᰈᰱ།ᰈ།থள்༎ ˼"
 
 ##bar of wynk---------------------------------------
     
@@ -117,7 +117,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/Xx_Kovai_king_TN37"),
+            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/itz_alpha_dude"),
             InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/Team_Hypers_Networks"),           
         ],
         [
@@ -138,7 +138,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
           [
-            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/Xx_Kovai_king_TN37"),
+            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥", url=f"https://t.me/itz_alpha_dude"),
             InlineKeyboardButton(text="𝀤ٜ 𝗖 ʜ 𞥄𝝰 𝝩 𞥇", url=f"https://t.me/Team_Hypers_Networks"),           
         ],
         [
